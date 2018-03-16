@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Git Terminal
+Comment=Use the command line (git prof)
+Keywords=shell;prompt;command;commandline;cmd;
+Exec=gnome-terminal --disable-factory --class gitterm --name gitterm --window-with-profile=github --working-directory=/home/andrew/Dropbox/git_repos
+Icon=utilities-terminal-git
+Type=Application
+Categories=GNOME;GTK;System;TerminalEmulator;
+StartupNotify=true
+OnlyShowIn=GNOME;Unity;
+Actions=New
+X-Ubuntu-Gettext-Domain=gnome-terminal
+
+[Desktop Action New]
+Name=New Terminal
+Exec=gnome-terminal
+OnlyShowIn=Unity
